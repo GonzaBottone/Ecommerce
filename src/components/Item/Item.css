@@ -1,0 +1,19 @@
+
+.ItemImg {
+    max-width: 300px;
+}
+
+.Option {
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
+.CardItem {
+    background-color: blueviolet;
+    padding: 2em;
+    margin: 3em;
+    max-width: 300px;
+    border-radius: 30px;
+}

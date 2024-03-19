@@ -12,7 +12,7 @@ h3 {
 }
 
 .boton {
-  font-size: 1.5em;
+  font-size: 15px;
   background-color: black;
   color: rgb(255, 255, 255);
   border:none;
@@ -23,8 +23,22 @@ h3 {
 .navbar {
     text-decoration: none;
     background-color: black;
+    padding: 0.5em;
 }
 
 .img-carrito {
   width: 2em;
+}
+
+.ecommerce {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Dela Gothic One', sans-serif;
+  margin-right: 500px;
+  font-size: 1.5em;
+}
+
+.img-carrito {
+  justify-content: end;
 }
