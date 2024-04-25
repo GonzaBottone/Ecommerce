@@ -1,44 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@500;600&display=swap');
 .App {
   text-align: center;
+  background-color: rgb(27, 27, 27);
+}
+
+.Options  {
+  background-color: rgb(119, 0, 255);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 2rem;
+  text-decoration: none;
+
+}
+
+.Header {
+  padding-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
 }
 
 h3 {
-  background-color: blue;
   color: white;
   font-family: 'Dela Gothic One', sans-serif;
-  font-size: 2em;
-  margin: 0;
 }
 
-.boton {
-  font-size: 15px;
-  background-color: black;
+h3:hover {
+  text-decoration: underline ;
+}
+
+.title {
   color: rgb(255, 255, 255);
-  border:none;
+  font-weight: bold;
+  font-size: 24px;
   font-family: 'Dela Gothic One', sans-serif;
-  padding: 0px 2em;
 }
 
 .navbar {
-    text-decoration: none;
-    background-color: black;
-    padding: 0.5em;
+  background-color: rgb(67, 17, 248);
+  display: flex;
+  padding: 1em 4em;
+  justify-content: center;
+  justify-content: space-between;
 }
 
-.img-carrito {
-  width: 2em;
+.carrito {
+  width: 40px;
+  background-color: blueviolet;
+  padding: 0.5em;
+  border-radius: 7px;
+  
 }
 
-.ecommerce {
-  border: none;
-  background-color: rgb(0, 0, 0);
+.boton {
+  background-color: blueviolet;
   color: rgb(255, 255, 255);
-  font-family: 'Dela Gothic One', sans-serif;
-  margin-right: 500px;
-  font-size: 1.5em;
+  text-decoration: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 7px;
 }
 
-.img-carrito {
-  justify-content: end;
+.div-botones {
+  gap: 20px;
 }

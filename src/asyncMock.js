@@ -1,17 +1,15 @@
 const products = [
     {
         id: '1',
-        name: 'Teclado Logitech',
+        name: 'Logitech G203',
         price: 1000,
-        category: 'celular',
-        category: 'computadora',
-        category: 'periferico',
-        img: 'https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/non-braid/g213-finch/g213-gallery-1-nb.png?v=1',
+        category: 'Mauses',
+        img: 'https://logitechar.vtexassets.com/arquivos/ids/157536-800-800?v=637345251488670000&width=800&height=800&aspect=true',
         stock: 25,
         description: 'Descripcion de iphone 12'
     },
-    { id: '2', name: 'Mause inalambrico G502', price: 800, category: 'computadora', img:'https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g502-lightspeed-gaming-mouse/g502-lightspeed-gallery-1.png'},
-    { id: '3', name: 'Auricular Gamer Logitech G335',  price: 500, category: 'periferico', img: 'https://www.infinitonline.com.ar/images/000000000000108723590g733-blue-gallery-1.png'},
+    { id: '2', name: 'Redragon K599 Deimos', price: 800, category: 'Teclados', img:'https://www.venex.com.ar/products_images/1596717311_k530draconic5.png'},
+    { id: '3', name: 'Astro A20',  price: 500, category: 'Auriculares', img: 'https://logitechar.vtexassets.com/arquivos/ids/157881-800-800?v=637503050431600000&width=800&height=800&aspect=true'},
 ]
 
 export const getProducts = () => {
@@ -19,6 +17,16 @@ export const getProducts = () => {
         setTimeout(() => {
             resolve(products)
 
-        }, 300)
+        }, 500)
     })
+}
+
+export const getProductById = (productId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.id === productId))
+        }, 500)
+    })
+
+
 }

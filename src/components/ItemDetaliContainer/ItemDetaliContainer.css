@@ -1,0 +1,17 @@
+.CardItem {
+    background-color: rgb(60, 7, 250);
+    border-radius: 20px;
+    margin: 2em;
+    justify-content: center;
+    
+}
+
+.ItemImg {
+    max-width: 300px;
+}
+
+.ItemDetaliContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
